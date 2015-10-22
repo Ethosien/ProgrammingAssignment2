@@ -1,7 +1,9 @@
 # Coursera RProgramming Course (rprog-033) assignment 2 by Jeff Swartzel, 10-22-15
 # This script contains 2 functions for programming assignment 2.
 # Together these functions can be used to cache the potentially 
-# time consuming calculation of inverting a matrix.
+# time consuming calculation of inverting a matrix.  If the inverse has already
+# been calculated the result will be retrieved.  The inverse will be calculated
+# if there isn't a cached result already available.
 
 #############
 
@@ -57,4 +59,4 @@ cacheSolve <- function(x, ...) {
 
 #############
 
-#this is my 3rd commit
+#this is my 4th commit
